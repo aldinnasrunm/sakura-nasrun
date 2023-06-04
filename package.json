@@ -1,0 +1,17 @@
+{
+  "name": "sakura-nasrun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "createCSS": "npx tailwindcss -i ./src/style/input.css -o ./dist/style/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
